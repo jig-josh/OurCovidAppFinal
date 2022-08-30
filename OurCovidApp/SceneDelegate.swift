@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  OurCovidApp
 //
-//  Created by Aysha Mansoor on 2022-07-27.
+//  Created by Aysha, Jignasa and Gelila on 2022-07-27.
 //
 
 import UIKit

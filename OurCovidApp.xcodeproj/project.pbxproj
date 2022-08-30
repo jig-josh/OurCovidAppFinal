@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303811B128937663007719C7 /* CovidAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303811B028937663007719C7 /* CovidAPI.swift */; };
+		DB8A1ED3289249F400022BB2 /* ProvinceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A1ED2289249F400022BB2 /* ProvinceData.swift */; };
 		DBC03B7F289103ED0081FB5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC03B7E289103ED0081FB5D /* AppDelegate.swift */; };
 		DBC03B81289103ED0081FB5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC03B80289103ED0081FB5D /* SceneDelegate.swift */; };
 		DBC03B83289103ED0081FB5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC03B82289103ED0081FB5D /* ViewController.swift */; };
@@ -14,9 +16,14 @@
 		DBC03B89289103ED0081FB5D /* OurCovidApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBC03B87289103ED0081FB5D /* OurCovidApp.xcdatamodeld */; };
 		DBC03B8B289103ED0081FB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC03B8A289103ED0081FB5D /* Assets.xcassets */; };
 		DBC03B8E289103ED0081FB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC03B8C289103ED0081FB5D /* LaunchScreen.storyboard */; };
+		DBC03B96289104260081FB5D /* ProvinceListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC03B95289104260081FB5D /* ProvinceListScreen.swift */; };
+		DBC03B9A289109210081FB5D /* ProvinceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC03B99289109210081FB5D /* ProvinceCell.swift */; };
+		DBFB7A9F2893A11D0052F8D1 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB7A9E2893A11D0052F8D1 /* ResultScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303811B028937663007719C7 /* CovidAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidAPI.swift; sourceTree = "<group>"; };
+		DB8A1ED2289249F400022BB2 /* ProvinceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceData.swift; sourceTree = "<group>"; };
 		DBC03B7B289103ED0081FB5D /* OurCovidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurCovidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC03B7E289103ED0081FB5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC03B80289103ED0081FB5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		DBC03B8A289103ED0081FB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC03B8D289103ED0081FB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBC03B8F289103ED0081FB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC03B95289104260081FB5D /* ProvinceListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceListScreen.swift; sourceTree = "<group>"; };
+		DBC03B99289109210081FB5D /* ProvinceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceCell.swift; sourceTree = "<group>"; };
+		DBFB7A9E2893A11D0052F8D1 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,15 @@
 		DBC03B7D289103ED0081FB5D /* OurCovidApp */ = {
 			isa = PBXGroup;
 			children = (
-				DBC03B7E289103ED0081FB5D /* AppDelegate.swift */,
 				DBC03B80289103ED0081FB5D /* SceneDelegate.swift */,
+				DBC03B7E289103ED0081FB5D /* AppDelegate.swift */,
 				DBC03B82289103ED0081FB5D /* ViewController.swift */,
+				DBFB7A9E2893A11D0052F8D1 /* ResultScreen.swift */,
+				DBC03B95289104260081FB5D /* ProvinceListScreen.swift */,
+				DB8A1ED2289249F400022BB2 /* ProvinceData.swift */,
+				303811B028937663007719C7 /* CovidAPI.swift */,
 				DBC03B84289103ED0081FB5D /* Main.storyboard */,
+				DBC03B99289109210081FB5D /* ProvinceCell.swift */,
 				DBC03B8A289103ED0081FB5D /* Assets.xcassets */,
 				DBC03B8C289103ED0081FB5D /* LaunchScreen.storyboard */,
 				DBC03B8F289103ED0081FB5D /* Info.plist */,
@@ -141,9 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303811B128937663007719C7 /* CovidAPI.swift in Sources */,
 				DBC03B89289103ED0081FB5D /* OurCovidApp.xcdatamodeld in Sources */,
 				DBC03B83289103ED0081FB5D /* ViewController.swift in Sources */,
+				DBC03B96289104260081FB5D /* ProvinceListScreen.swift in Sources */,
+				DBFB7A9F2893A11D0052F8D1 /* ResultScreen.swift in Sources */,
+				DBC03B9A289109210081FB5D /* ProvinceCell.swift in Sources */,
 				DBC03B7F289103ED0081FB5D /* AppDelegate.swift in Sources */,
+				DB8A1ED3289249F400022BB2 /* ProvinceData.swift in Sources */,
 				DBC03B81289103ED0081FB5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
